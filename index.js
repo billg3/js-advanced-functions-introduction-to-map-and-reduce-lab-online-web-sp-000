@@ -6,6 +6,3 @@ function mapToNegativize(src) {
   for (let i = 0; i < src.length; i++ ) {
     r.push(-1 * src[i])
   }
-
-
-
