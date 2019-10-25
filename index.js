@@ -10,4 +10,5 @@ function mapToNegativize(src) {
   }
 
 return r
+
 }
