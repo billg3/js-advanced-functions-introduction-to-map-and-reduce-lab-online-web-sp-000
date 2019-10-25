@@ -19,5 +19,5 @@ function reduceToAllTrue(src) {
   for (let i = 0; i < src.length; i++ ) {
     if (!src[i]) return false
   }
-  else return true
+   return true
 }
