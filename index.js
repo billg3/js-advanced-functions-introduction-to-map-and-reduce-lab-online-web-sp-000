@@ -12,3 +12,12 @@ function mapToNegativize(src) {
 return r
 
 }
+
+
+
+function reduceToAllTrue(src) {
+  for (let i = 0; i < src.length; i++ ) {
+    if (!src[i]) return false
+  }
+  return true
+}
